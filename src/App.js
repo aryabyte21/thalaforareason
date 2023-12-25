@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Text, Box, Image, Flex } from "@chakra-ui/react";
+import { Text,  Image, Flex } from "@chakra-ui/react";
 import Draggable from "react-draggable";
 import thala from "./assets/thala.png";
 // Import other images
