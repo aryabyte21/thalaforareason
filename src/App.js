@@ -13,7 +13,7 @@ import image6 from "./assets/fish1.png";
 
 function App() {
   return (
-    <Box className="App">
+    <div className="App">
       <Text
         bgGradient="linear(to-l, #7928CA, #FF0080)"
         bgClip="text"
@@ -26,7 +26,7 @@ function App() {
         direction={{ base: "column", md: "row" }} // Column in mobile, row in tablet and desktop
         justify="center"
         align="center"
-        height="100vh"
+        height="100%"
         wrap="wrap"
       >
         {/* Food items (left/right on desktop, top on mobile) */}
@@ -95,7 +95,7 @@ function App() {
           </Draggable>
         </Flex>
       </Flex>
-    </Box>
+    </div>
   );
 }
 
