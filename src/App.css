@@ -3,6 +3,13 @@
   background-color: #282c34;
 }
 
+body {
+  background-color: #282c34 !important;  
+  margin: 0  !important;  
+  padding: 0 !important;  
+  height: 100% !important;  
+  width: 100% !important;  
+}
 
 
 @keyframes App-logo-spin {
